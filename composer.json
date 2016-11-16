@@ -1,0 +1,38 @@
+{
+    "name": "stefanorg/zend-expressive-graphiql",
+    "type": "library",
+    "description": "Zend Expressive GraphiQL extension",
+    "homepage": "https://github.com/stefanorg/zend-expressive-graphiql",
+    "license" : "BSD-3-Clause",
+    "authors": [
+    	{
+	    "name": "Stefano Corallo",
+	    "homepage": "http://stefanorg.github.io/"
+	}
+    ],
+    "keywords": [
+        "expressive",
+        "graphql",
+        "graphiql",
+        "twig"
+    ],
+    "require": {
+        "php": "^7.0",
+        "zendframework/zend-expressive-twigrenderer": "^1.0",
+        "zendframework/zend-stdlib": "^2.7 || ^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GraphiQLExtension\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "squizlabs/php_codesniffer": "^2.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GraphiQLExtensionTest\\": "test/"
+        }
+    }
+}
