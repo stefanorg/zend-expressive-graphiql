@@ -30,7 +30,7 @@ class GraphiqlOptions extends AbstractOptions
     /**
      * @return string
      */
-    public function getTokenHeader(): string
+    public function getTokenHeader()
     {
         return $this->token_header;
     }
@@ -38,7 +38,7 @@ class GraphiqlOptions extends AbstractOptions
     /**
      * @param string $token_header
      */
-    public function setTokenHeader(string $token_header)
+    public function setTokenHeader($token_header)
     {
         $this->token_header = $token_header;
     }
@@ -46,7 +46,7 @@ class GraphiqlOptions extends AbstractOptions
     /**
      * @return string
      */
-    public function getGraphqlServerUrl(): string
+    public function getGraphqlServerUrl()
     {
         return $this->graphql_server_url;
     }
@@ -54,7 +54,7 @@ class GraphiqlOptions extends AbstractOptions
     /**
      * @param string $graphql_server_url
      */
-    public function setGraphqlServerUrl(string $graphql_server_url)
+    public function setGraphqlServerUrl($graphql_server_url)
     {
         $this->graphql_server_url = $graphql_server_url;
     }
@@ -62,7 +62,7 @@ class GraphiqlOptions extends AbstractOptions
     /**
      * @return string
      */
-    public function getTemplateName(): string
+    public function getTemplateName()
     {
         return $this->template_name;
     }
@@ -70,7 +70,7 @@ class GraphiqlOptions extends AbstractOptions
     /**
      * @param string $template_name
      */
-    public function setTemplateName(string $template_name)
+    public function setTemplateName($template_name)
     {
         $this->template_name = $template_name;
     }
